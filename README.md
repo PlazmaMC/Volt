@@ -15,11 +15,11 @@
 </div>
 
 > [!WARNING]
-This project was created to make it easy to **fork a Plazma**! If you're not a developer, but just want to use the Plazma, please refer to the [Plazma repository]((https://github.com/PlazmaMC/Plazma)).<br>
+This project was created to make it easy to **fork a Plazma**! If you're not a developer, but just want to use the Plazma, please refer to the [Plazma repository](https://github.com/PlazmaMC/Plazma).<br>
 본 프로젝트는 Plazma를 쉽게 **포크할 수 있도록** 하기 위해 만들어진 프로젝트입니다! 개발자가 아니고, Plazma를 사용하기 위해 방문했다면, [Plazma 저장소](https://github.com/PlazmaMC/Plazma)를 참조해주세요.
 
 ## 📚 Development Guide
-- The development guide is available on the [Volt Wiki](ttps://github.com/PlazmaMC/Volt/wiki).
+- The development guide is available on the [Volt Wiki](https://github.com/PlazmaMC/Volt/wiki).
 - 개발 가이드는 [Volt 위키](https://github.com/PlazmaMC/Volt/wiki)를 참조해주세요.
 
 ## ⚖️ License
