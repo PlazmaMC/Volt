@@ -101,6 +101,13 @@ paperweight {
             serverOutputDir = layout.projectDirectory.dir("Volt-Server") // Volt - Change this
         }
 
+        patchTasks.register("mojangApi") {
+            isBareDirectory = true
+            upstreamDirPath = "Plazma-MojangAPI"
+            patchDir = layout.projectDirectory.dir("patches/mojang-api")
+            outputDir = layout.projectDirectory.dir("Volt-MojangAPI") // Volt - Change this
+        }
+
         patchTasks.register("generatedApi") {
             isBareDirectory = true
             upstreamDirPath = "paper-api-generator/generated"

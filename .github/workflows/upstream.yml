@@ -33,7 +33,7 @@ jobs:
 
       - name: Commit changes
         if: steps.check.outputs.needs == 'true'
-        run: printf "Updated Upstream (Plazma)\n\nUpstream has released updates that appear to apply and compile correctly\n\n$(cat compare.txt)" | git commit -F -
+        run: git add . && printf "Updated Upstream (Plazma)\n\nUpstream has released updates that appear to apply and compile correctly\n\n$(cat compare.txt)" | git commit -F -
 
       - name: Push changes
         if: steps.check.outputs.needs == 'true'

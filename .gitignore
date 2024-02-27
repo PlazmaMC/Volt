@@ -52,7 +52,12 @@ run/
 
 build-data/
 libs/
+paper-api-generator
+
+# Always Up To Date
+compare.txt
+
+# Volt - Change below values
 Volt-API
 Volt-MojangAPI
 Volt-Server
-paper-api-generator

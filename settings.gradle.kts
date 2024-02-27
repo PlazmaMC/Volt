@@ -46,7 +46,7 @@ if (file("libs").exists()) {
 }
 
 rootProject.name = "volt" // Volt - Change this
-for (name in listOf("Volt-API", "Volt-Server", "paper-api-generator")) { // Volt - Change this
+for (name in listOf("Volt-API", "Volt-Server", "Volt-MojangAPI", "paper-api-generator")) { // Volt - Change this
     val projName = name.lowercase(Locale.ENGLISH)
     include(projName)
     findProject(":$projName")!!.projectDir = file(name)
